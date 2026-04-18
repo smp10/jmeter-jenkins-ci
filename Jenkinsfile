@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Reports') {
       steps {
-        perfReport sourceDatafiles: 'logs/results.jtl'
+        perfReport sourceDataFiles: 'logs/results.jtl'
         publishHTML(
           target: [
             reportDir: 'html/report',
