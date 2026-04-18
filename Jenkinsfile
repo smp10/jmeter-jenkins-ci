@@ -23,7 +23,7 @@ pipeline {
           target: [
             reportDir: 'html/report',
             reportFiles: 'index.html',
-            reportDir: 'JMeter HTML Report',
+            reportName: 'JMeter HTML Report',
             keepAll: true,
             alwaysLinkToLastBuild: true,
             allowMissing: false
